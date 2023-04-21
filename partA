@@ -1,0 +1,5 @@
+#!/bin/sh
+
+SCRIPT=$(readlink -f "$0")
+SCRIPT_DIR=$(dirname "$SCRIPT")
+python3.9 $SCRIPT_DIR/main_partA.py
